@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt_name">Nome</string>
+    <string name="txt_idade">Idade</string>
+    <string name="txt_altura">Altura</string>
+    <string name="txt_peso">Peso</string>
+    <string name="txt_imc">IMC</string>
+    <string name="txt_processar">Processar</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.italo.myapplication.MainActivity">
+
+    <EditText
+        android:id="@+id/pnNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="@string/txt_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/pnIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pnNome"
+        android:layout_below="@+id/pnNome"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/txt_idade"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/pnAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pnIdade"
+        android:layout_below="@+id/pnIdade"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="@string/txt_altura"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/pnPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pnAltura"
+        android:layout_below="@+id/pnAltura"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="@string/txt_peso"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pnPeso"
+        android:layout_below="@+id/pnPeso"
+        android:layout_marginTop="41dp"
+        tools:text="@string/txt_name" />
+
+    <TextView
+        android:id="@+id/tvIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvNome"
+        android:layout_below="@+id/tvNome"
+        android:layout_marginTop="27dp"
+        tools:text="@string/txt_imc" />
+
+    <Button
+        android:id="@+id/btnProcessar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        tools:text="@string/txt_processar" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityEmpresa">
+
+    <TextView
+        android:id="@+id/txt_sobre_empresa_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/empresa_sobre"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="39dp"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:text="Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem Lorem ipsun Intem " />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

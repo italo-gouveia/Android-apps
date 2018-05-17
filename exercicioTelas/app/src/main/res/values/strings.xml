@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">exercicioTelas</string>
+    <string name="edtNome">Nome</string>
+    <string name="edtEmail">Email</string>
+    <string name="edtCurso">Curso</string>
+    <string name="txtTitleCheckBox">Escolha os cursos que você deseja fazer:</string>
+    <string name="cbAndroid">Android</string>
+    <string name="cbIonic">Ionic</string>
+    <string name="cbJava">Java Avançado</string>
+    <string name="cbCSharp">C#</string>
+    <string name="txtTitleRadioButton">Você quer receber mensagens adicionais</string>
+    <string name="rbSim">Sim</string>
+    <string name="rbNao">Não</string>
+    <string name="btnEnviar">Enviar</string>
+</resources>
