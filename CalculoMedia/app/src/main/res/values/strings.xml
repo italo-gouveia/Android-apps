@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CalculoMedia</string>
+    <string name="tv_bemVindo">Bem vindo à aplicação!</string>
+    <string name="pt_name">Nome:</string>
+    <string name="pt_av1">Primeira Nota:</string>
+    <string name="pt_av2">Segunda Nota:</string>
+    <string name="pt_av3">Terceira Nota:</string>
+    <string name="tv_name">Nome do Aluno:</string>
+    <string name="tv_media">Média do Aluno:</string>
+    <string name="tv_aprovado"></string>
+    <string name="btn_calcular">Calcular:</string>
+</resources>

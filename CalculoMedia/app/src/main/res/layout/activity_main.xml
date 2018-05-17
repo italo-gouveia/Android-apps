@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.italo.calculomedia.MainActivity">
+
+    <TextView
+        android:id="@+id/txtBemVindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tv_bemVindo" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtMedia"
+        android:layout_below="@+id/txtBemVindo"
+        android:ems="10"
+        android:hint="@string/pt_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtAV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtBemVindo"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="@string/pt_av1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtAV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtAV1"
+        android:layout_below="@+id/edtAV1"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/pt_av2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtAV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtAV2"
+        android:layout_below="@+id/edtAV2"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/pt_av3"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edtAV3"
+        android:layout_below="@+id/edtAV3"
+        android:layout_marginTop="21dp"
+        android:text="@string/tv_name" />
+
+    <TextView
+        android:id="@+id/txtMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtName"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="14dp"
+        android:text="@string/tv_media" />
+
+    <Button
+        android:id="@+id/btnProcessar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMedia"
+        android:layout_marginTop="53dp"
+        android:layout_toEndOf="@+id/txtBemVindo"
+        android:text="@string/btn_calcular" />
+
+    <TextView
+        android:id="@+id/txtAprovado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtName"
+        android:layout_below="@+id/txtMedia"
+        android:layout_marginTop="15dp"
+        android:text="@string/tv_aprovado" />
+</RelativeLayout>
